@@ -1,25 +1,111 @@
 <!DOCTYPE html>
-<html>
-<body>
-    <section class="navbar">
-        <h1>Happy Cat Cafe</h1>
-        <ul>
-            <li>About Us</li>
-            <li>Menu</li>
-            <li>View Cats</li>
-            <li>Contact Us</li>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Cat Cafe</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- <section id="nav-bar">
+      <div>
+        <ul class="navbar">
+          <li><h1 id="happycafe-nav-title">Happy Cat Cafe</h1></li>
+          <li><a href="/aboutus.html">About Us</a></li>
+          <li><a href="/menu.html">Menu</a></li>
+          <li><a href="/viewcats.html">View Cats</a></li>
+          <li><a href="/contactus.html">Contact Us</a></li>
         </ul>
+      </div>
+    </section> -->
+    <section id="nav-bar">
+      <div>
+        <ul class="navbar-flex">
+          <h1 class="logo">Happy Cat Cafe</h1>
+          <div class="menu-item">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#view-cats">View Cats</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>About Us</h2>
+      <p>Welcome to the Happy Cat Cafe!</p>
+      <p>
+        We rescue cats from shelters and make them available for adoption here.
+      </p>
+      <p>
+        Come join us for afternoon tea and meet some “fur-ends” - you might even
+        take one home!
+      </p>
+      <img src="img/cat1.png" alt="Cat 1" />
+    </section>
+    <section id="our-menu">
+      <h2>Our Menu</h2>
+      <div class="menuitems">
+        <div class="drinkmenu">
+          <ul>
+            <li>Vanilla Latte</li>
+            <li>Caramel Macchiato</li>
+            <li>London Fog</li>
+            <li>Chai Latte</li>
+            <li>Hot Chocolate</li>
+          </ul>
+        </div>
+        <div class="foodmenu">
+          <ul>
+            <li>Croissant</li>
+            <li>Banana Bread</li>
+            <li>Cookie</li>
+            <li>Carrot Cake</li>
+            <li>Danish</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="our-cats">
+      <h2>Cats Available for Adoption</h2>
+      <ul>
+        <div class="catpics">
+          <img src="img/whiteorangecat.png" alt="" />
+          <img src="img/bwkitten.png" alt="" />
+          <img src="img/orangetabby.png" alt="" />
+        </div>
+        <div class="pinkrectangles">
+          <div class="rectangle1"></div>
+          <div class="rectangle2"></div>
+          <div class="rectangle3"></div>
+        </div>
+        <div class="catnames">
+          <div class="marla">
+            <p>Name: Marla<br />Age: 4</p>
+          </div>
+          <div class="tuna">
+            <p>Name: Tuna<br />Age: 1</p>
+          </div>
+          <div class="rufus">
+            <p>Name: Rufus<br />Age: 7</p>
+          </div>
+        </div>
+      </ul>
+    </section>
+    <section id="contact-us"></section>
 
-    </section>
-    <section class="aboutus">
-        <h1>About Us</h1>
-        <p>Welcome to the Happy Cat Cafe!<br><br>
-        We rescue cats from shelters and make them available for adoption here.<br><br>
-        Come join us for afternoon tea and meet some "fur-ends" - you might even take one home</p>
-        <img src="img/landingpagecat.jpg" alt="">
-    </section>
-    <section class="footer">
+    <section id="footer">
+      <ul class="footer-flex">
+        <a href="mailto:happycatcafe@gmail.com">happycatcafe@gmail.com</a>
 
+        <img src="img/icon_twitter.png" alt="Twitter" />
+        <img src="img/icon_instagram.png" alt="Instagram" />
+      </ul>
     </section>
-</body>
+  </body>
 </html>

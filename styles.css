@@ -1,0 +1,136 @@
+/* Navbar styles */
+/* #happycafe-nav-title {
+  color: #f6bd60;
+  font-size: 60;
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px;
+}
+.navbar li a {
+  padding-left: 100px;
+} */
+
+.navbar-flex {
+    /* margin: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* background: yellow; */
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .navbar-flex a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+  }
+  
+  .navbar-flex a:hover {
+    background: rgb(119, 119, 119);
+  }
+  
+  .logo {
+    /* margin: 0 0 0 0.45em; */
+    align-self: left;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  h1 {
+    color: #f6bd60;
+  }
+  a {
+    text-decoration: none;
+    color: #0a1045;
+  }
+  
+  /* our menu styles */
+  #our-menu h2 {
+    color: #f6bd60;
+    font-size: 60;
+    text-align: center;
+  }
+  #our-menu ul {
+    list-style-type: none;
+  }
+  #our-menu li {
+    color: #0a1045;
+    font-size: 60;
+    text-align: center;
+  }
+  .menuitems {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* our cats styles */
+  #our-cats h2 {
+    color: #f6bd60;
+    font-size: 60;
+    text-align: center;
+    padding: 4%;
+  }
+  #our-cats .catpics {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #our-cats img {
+    width: 25%;
+  }
+  #our-cats ul {
+    list-style-type: none;
+  }
+  #our-cats li {
+    display: inline-block;
+  }
+  .pinkrectangles {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .rectangle1 {
+    height: 10px;
+    width: 25%;
+    background-color: #ffd6e0;
+    margin-top: 3%;
+  }
+  .rectangle2 {
+    height: 10px;
+    width: 25%;
+    background-color: #ffd6e0;
+    margin-top: 3%;
+  }
+  .rectangle3 {
+    height: 10px;
+    width: 25%;
+    background-color: #ffd6e0;
+    margin-top: 3%;
+  }
+  .catnames {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .catnames p {
+    font-size: 40;
+    color: #0a1045;
+    text-align: center;
+    font-style: bold;
+  }
+  .marla {
+    width: 25%;
+  }
+  .tuna {
+    width: 25%;
+  }
+  .rufus {
+    width: 25%;
+  }
+  
